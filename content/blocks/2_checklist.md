@@ -6,10 +6,9 @@ effect: fade-slide-top
 effectTimeout: 0
 ---
 
-In this starter, we have:
 
-✅ full support of [Styled Components](https://www.styled-components.com/), without creepy FOUC and other artifacts,<br />
-✅ managing data with [Netlify CMS](https://www.netlifycms.org/) and deploying to [Netlify hosting](https://www.netlify.com/), [check this out](/admin),<br />
-✅ correct support of putting graphic assets through [Image Sharp plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-sharp/),<br />
-✅ [TypeScript](http://www.typescriptlang.org/),<br />
-✅ cool animations :)<br />
+- Hai un progetto Open Source sul quale vorresti lavorare con altri?<br>
+- Avresti sempre voluto partecipare ad un progetto Open Source ma non l’hai mai fatto?<br>
+- Vorresti lavorare in pair programming con altre persone su un progetto non banale per poterti scambiare i segreti del mestiere?<br>
+- Stai imparando un linguaggio di programmazione e vorresti esercitarti con qualcuno?
+

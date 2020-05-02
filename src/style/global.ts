@@ -60,6 +60,27 @@ export const GlobalStyle = createGlobalStyle`
       margin-block-end: 0;
     }
 
+    ul {
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+
+    ul li {
+        position:relative; 
+        padding-left:15px;
+    }
+
+    ul li:after {
+      content: '› ';
+      position: absolute;
+
+      left:0;
+      top:0;
+      bottom:0;
+      margin:0 0 auto;
+    }
+
     main {
       display: block;
     }
