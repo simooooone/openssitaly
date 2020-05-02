@@ -5,12 +5,13 @@ export const Footer: FunctionComponent<{}> = () => {
     return (
         <Container>
             <Info>
-                <NoWrap>&copy; 2019</NoWrap>{' '}
+                <NoWrap>&copy; 2020</NoWrap>{' '}
                 <NoWrap>
-                    &laquo;Grayscale Promo!&raquo; &mdash; a GatsbyJS starter
+                    &laquo;Open Source Saturday Italy!&raquo; &mdash; Ogni
+                    sabato contribuiamo insieme al codice open source
                 </NoWrap>
             </Info>
-            <Info>Our website uses no cookies :)</Info>
+            <Info>Questo sito non usa cookie :)</Info>
         </Container>
     );
 };

@@ -67,7 +67,7 @@ export const Arrow = withEffects(styled.div`
 `);
 
 export const Title = withEffects(styled.h1`
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 600;
     letter-spacing: 0.4rem;
     ${media({

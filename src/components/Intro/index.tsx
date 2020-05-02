@@ -40,13 +40,14 @@ export const Intro: FunctionComponent<{}> = () => {
                                 effect="fade-slide-left"
                                 effectTimeout={timeoutBase}
                             >
-                                Grayscale promo
+                                Open Source Saturday Italy
                             </Title>
                             <SubTitle
                                 effect="fade-slide-bottom"
                                 effectTimeout={timeoutBase + 500}
                             >
-                                GatsbyJS starter
+                                Ogni sabato contribuiamo insieme al codice open
+                                source
                             </SubTitle>
                         </Data>
                         <Arrow

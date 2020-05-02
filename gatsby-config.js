@@ -1,7 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: 'Grayscale promo',
-        description: 'Grayscale promo gatsby starter',
+        title: 'Open Source Saturday Italy',
+        description:
+            'Open Source Saturday Italy | Ogni sabato contribuiamo insieme al codice open source',
         author: '@awesome1888',
     },
     plugins: [
