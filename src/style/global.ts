@@ -270,4 +270,25 @@ export const GlobalStyle = createGlobalStyle`
         margin-inline-start: 0;
         margin-inline-end: 0;
     }
+
+    table {
+      width:100%;
+    }
+
+    table tr td {
+      padding:5px 10px;
+      border-bottom:1px solid #333;
+    }
+
+    table tr td:first-child {
+      background-color:#9863a0;
+      color:#fff;
+      text-align:left;
+      border-bottom:1px solid #fff;
+    }
+
+    pre {
+      overflow:scroll;
+    }
+
 `;
