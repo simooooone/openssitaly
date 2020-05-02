@@ -104,4 +104,4 @@ Open Source Saturday che si svolgono sul territorio nazionale:
  
 Un grande grazie all’[oss-milano](https://www.meetup.com/it-IT/Open-Source-Saturday-Milano/) per l’idea e scusate per i copia-incolla aggressivi dalla vostra pagina :)
 
-OSS-Italy icon made by [Pixel perfect](https://www.flaticon.com/authors/pixel-perfect) from [www.flaticon.com](www.flaticon.com)
+OSS-Italy icon made by [Pixel perfect](https://www.flaticon.com/authors/pixel-perfect) from [www.flaticon.com](https://www.flaticon.com)

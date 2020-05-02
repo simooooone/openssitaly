@@ -7,6 +7,21 @@ export const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
     @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+    .navbar {
+      position:absolute;
+      top:0;
+      right:0;
+      padding:5px 0;
+      background-color:rgba(0, 0, 0, 0.5)
+      z-index:10;
+    }
+    .navbar a {
+      margin:0 5px; 
+      color:#fff;
+      font-size:16px;
+      display:inline-block;
+    }
+
     html {
         font-size: 20px;
         cursor: default;
@@ -288,7 +303,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     pre {
-      overflow:scroll;
+      overflow-x:scroll;
     }
 
 `;

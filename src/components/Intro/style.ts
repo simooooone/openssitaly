@@ -7,6 +7,7 @@ import {
     align,
     icon,
 } from '@bucket-of-bolts/styled-companion';
+
 import { media } from '../../style';
 import { withEffects, effect } from '../../lib/effects';
 
@@ -21,6 +22,8 @@ export const BackgroundImage = styled(Img)`
     user-select: none;
     position: absolute !important;
 `;
+
+export const NavBar = styled.div``;
 
 export const ImageOverlay = styled.div`
     ${absoluteCover()};

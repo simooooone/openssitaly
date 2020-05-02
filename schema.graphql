@@ -2344,6 +2344,7 @@ enum SitePageFieldsEnum {
   pluginCreator___packageJson___description
   pluginCreator___packageJson___version
   pluginCreator___packageJson___main
+  pluginCreator___packageJson___author
   pluginCreator___packageJson___license
   pluginCreator___packageJson___dependencies
   pluginCreator___packageJson___dependencies___name
@@ -2534,6 +2535,7 @@ enum SitePluginFieldsEnum {
   packageJson___description
   packageJson___version
   packageJson___main
+  packageJson___author
   packageJson___license
   packageJson___dependencies
   packageJson___dependencies___name
@@ -2577,6 +2579,7 @@ type SitePluginPackageJson {
   description: String
   version: String
   main: String
+  author: String
   license: String
   dependencies: [SitePluginPackageJsonDependencies]
   devDependencies: [SitePluginPackageJsonDevDependencies]
@@ -2617,6 +2620,7 @@ input SitePluginPackageJsonFilterInput {
   description: StringQueryOperatorInput
   version: StringQueryOperatorInput
   main: StringQueryOperatorInput
+  author: StringQueryOperatorInput
   license: StringQueryOperatorInput
   dependencies: SitePluginPackageJsonDependenciesFilterListInput
   devDependencies: SitePluginPackageJsonDevDependenciesFilterListInput
