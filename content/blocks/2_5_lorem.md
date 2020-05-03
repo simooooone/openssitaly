@@ -8,9 +8,9 @@ effectTimeout: 0
 
 Incontriamoci online sabato su discord per contribuire insieme al codice open source! 🚀
 
-L’unico vincolo è che qualunque cosa venga prodotta deve essere rilasciata entro fine giornata con una Licenza Libera. 🌈
+L’unico vincolo è che qualunque cosa venga prodotta deve essere rilasciata entro fine giornata con una [Licenza Libera](https://opensource.org/licenses). 🌈
 
-L’evento si tiene tutti i sabati. Qualsiasi livello di esperienza è ben accetto, da principianti a esperti. Vai qui per vedere a cosa abbiamo lavorato durante gli eventi passati.
+L’evento si tiene tutti i sabati. Qualsiasi livello di esperienza è ben accetto, da principianti a esperti. Vai [qui](https://oss-italy.github.io/events/) per vedere a cosa abbiamo lavorato durante gli eventi passati.
 
 ### Programma
 
@@ -54,19 +54,19 @@ L’evento si tiene tutti i sabati. Qualsiasi livello di esperienza è ben accet
 - Chi propone di lavorare su un progetto deve essere un’esperto della materia? Non obbligatoriamente, è lecito chiedere aiuto per una cosa che ci piacerebbe realizzare ma per la quale non abbiamo le competenze necessarie, basta esplicitarlo quando fate la proposta in modo che le persone ne siano consapevoli.
 - Cosa dobbiamo installare sui nostri portatili? Git e l’ambiente di sviluppo per il linguaggio con cui volete lavorare.
 - Qualche esempio di proposta?
-    - Sono il maintainer del progetto X, è sviluppato in Y, avrebbe bisogno di un po’ di amore, in particolare servirebbe implementare la funzionalità A e fixare i bug H e K
-    - Non so niente di Ruby ma mi piacerebbe imparare iniziando a contribuire ad un progetto Open Source, c’è nessuno che conosce Ruby disposto ad aiutarmi?
-    - Utilizzo il progetto X, lo adoro ma gli manca proprio Y, qualcuno vuole provare a implementarlo con me?
-    - Ho sempre desiderato qualcosa che facesse X, vorrei svilupparlo come progetto OS, chi vuole partecipare?
-    - Quanto devono essere grandi i gruppi di lavoro? Dipende dal progetto e da come ci si riesce ad organizzare, più il gruppo è grande e più è difficile organizzarne il lavoro, nel dubbio partite da 2 o 3 persone.
-    - Non sono esperto e non ho mai contribuito all’open source. Come si fa? Dai un’occhiata su firstcontributions.github.io per iniziare e unisciti all’evento in ogni caso, ti aiutiamo noi! 😀
+  - Sono il maintainer del progetto X, è sviluppato in Y, avrebbe bisogno di un po’ di amore, in particolare servirebbe implementare la funzionalità A e fixare i bug H e K
+  - Non so niente di Ruby ma mi piacerebbe imparare iniziando a contribuire ad un progetto Open Source, c’è nessuno che conosce Ruby disposto ad aiutarmi?
+  - Utilizzo il progetto X, lo adoro ma gli manca proprio Y, qualcuno vuole provare a implementarlo con me?
+  - Ho sempre desiderato qualcosa che facesse X, vorrei svilupparlo come progetto OS, chi vuole partecipare?
+- Quanto devono essere grandi i gruppi di lavoro? Dipende dal progetto e da come ci si riesce ad organizzare, più il gruppo è grande e più è difficile organizzarne il lavoro, nel dubbio partite da 2 o 3 persone.
+- Non sono esperto e non ho mai contribuito all’open source. Come si fa? Dai un’occhiata su <a href="https://firstcontributions.github.io" target="_blank" rel="noopener nofollow">firstcontributions.github.io</a> per iniziare e unisciti all’evento in ogni caso, ti aiutiamo noi! 😀
 
 ### Come trovare un progetto?
 
 Avete scelto con che linguaggio di programmazione lavorare ma non sapete su che progetto tuffarvi? Niente paura, potete trovarlo grazie alle seguenti risorse:
 
-- CodeTriage è un elenco di progetti che hanno bisogno di una mano, i progetti sono indicati per linguaggio di programmazione
-- Up For Grabs anche questo è un elenco di progetti OS ma è più ricco di progetti meno conosciuti e che contengono issue marcate con “Help Wanted”
+- [CodeTriage](https://www.codetriage.com/) è un elenco di progetti che hanno bisogno di una mano, i progetti sono indicati per linguaggio di programmazione
+- [Up For Grabs](https://up-for-grabs.net/) anche questo è un elenco di progetti OS ma è più ricco di progetti meno conosciuti e che contengono issue marcate con “Help Wanted”
 
 ### Cosa fare durante il resto della settimana?
 
@@ -94,11 +94,11 @@ Lo scopo è quello di non diventare troppo dipendenti da discord, in modo da pot
 
 Open Source Saturday che si svolgono sul territorio nazionale:
 
-[Milano](https://www.meetup.com/it-IT/Open-Source-Saturday-Milano/)
+- [Milano](https://www.meetup.com/it-IT/Open-Source-Saturday-Milano/)
 
 ### Vuoi darci una mano?
 
-[Questa](https://github.com/oss-italy) è la nostra organizzazione di GitHub. Puoi risolvere issue o aprirne di nuovi con suggerimenti e proposte.
+- [Questa](https://github.com/oss-italy) è la nostra organizzazione di GitHub. Puoi risolvere issue o aprirne di nuovi con suggerimenti e proposte.
 
 ### Credits
  
