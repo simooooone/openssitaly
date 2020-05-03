@@ -10,9 +10,9 @@ import {
     SubTitle,
     NavBar,
 } from './style';
-/* import { Discord } from '@styled-icons/boxicons-logos/Discord';
+import { Discord } from '@styled-icons/boxicons-logos/Discord';
 import { Github } from '@styled-icons/boxicons-logos/Github';
-import { Twitter } from '@styled-icons/boxicons-logos/Twitter'; */
+import { Twitter } from '@styled-icons/boxicons-logos/Twitter';
 import { Query } from './query';
 import { Copyright } from '../Copyright';
 
@@ -44,21 +44,21 @@ export const Intro: FunctionComponent<{}> = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Github
+                                <Github />
                             </a>
                             <a
                                 href="https://twitter.com/OssItaly"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Twitter
+                                <Twitter />
                             </a>
                             <a
                                 href="https://discord.gg/TpEa5Wn"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Discord
+                                <Discord />
                             </a>
                         </NavBar>
                         <ImageOverlay />

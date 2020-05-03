@@ -11,15 +11,27 @@ export const GlobalStyle = createGlobalStyle`
       position:absolute;
       top:0;
       right:0;
-      padding:5px 0;
-      background-color:rgba(0, 0, 0, 0.5)
+      padding:5px 0 10px;
+      background-color:rgba(255, 255, 255, 1);
       z-index:10;
+      line-height:1;
     }
     .navbar a {
       margin:0 5px; 
-      color:#fff;
-      font-size:16px;
+      color:#9863a0;
+      font-size:14px;
+      text-decoration:none;
       display:inline-block;
+      line-height:1;
+    }
+
+    .navbar a svg {
+      width:23px;
+    }
+
+    .navbar a:hover {
+      text-decoration:underline;
+      color:#333;
     }
 
     html {
@@ -292,7 +304,7 @@ export const GlobalStyle = createGlobalStyle`
 
     table tr td {
       padding:5px 10px;
-      border-bottom:1px solid #333;
+      /*border-bottom:1px solid #333;*/
     }
 
     table tr td:first-child {
