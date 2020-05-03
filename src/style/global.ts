@@ -125,7 +125,7 @@ export const GlobalStyle = createGlobalStyle`
 
     a {
       background-color: transparent;
-      ${fgColor('#9e3333', '#842020', 300)}
+      ${fgColor('#9863a0', '#842020', 300)}
     }
     
     abbr[title] {
