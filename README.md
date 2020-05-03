@@ -5,13 +5,13 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+[![Open Source Saturday Italy][ossi-shield]][ossi-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![Language][language-shield]][language-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ca134944-33b3-41ac-8d12-048fc8c20637/deploy-status)](https://app.netlify.com/sites/gatsby-starter-grayscale-promo/deploys)
 
 <!-- PROJECT LOGO -->
@@ -163,3 +163,5 @@ Special thanks to:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/sergey-gannochenko/
 [product-screenshot]: images/screenshot.png
+[ossi-shield]: [https://img.shields.io/badge/Open%20Source%20Saturday-Italy-red]
+[ossi-url]: [https://oss-italy.github.io/]

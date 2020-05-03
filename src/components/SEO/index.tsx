@@ -5,7 +5,7 @@ import { Query } from './query';
 
 export const SEO: FunctionComponent<Props> = ({
     description = '',
-    lang = 'en',
+    lang = 'it',
     meta = [],
     keywords = [],
     title,
