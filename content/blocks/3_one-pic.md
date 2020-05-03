@@ -10,4 +10,4 @@ effect: fade-slide-top
 effectTimeout: 0
 ---
 
-So yeah, the starter supports displaying of a single image, like this:
+Gallery

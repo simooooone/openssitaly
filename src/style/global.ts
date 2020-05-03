@@ -101,7 +101,7 @@ export const GlobalStyle = createGlobalStyle`
     ul li:after {
       content: '› ';
       position: absolute;
-
+      color:#9863a0;
       left:0;
       top:0;
       bottom:0;
@@ -304,7 +304,6 @@ export const GlobalStyle = createGlobalStyle`
 
     table tr td {
       padding:5px 10px;
-      /*border-bottom:1px solid #333;*/
     }
 
     table tr td:first-child {

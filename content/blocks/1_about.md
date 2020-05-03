@@ -6,5 +6,5 @@ effect: fade-slide-top
 effectTimeout: 0
 ---
 
-Hello. This is a starter for GatsbyJS framework.
+Open Source Saturday Italy
 

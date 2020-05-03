@@ -11,7 +11,9 @@ export const Footer: FunctionComponent<{}> = () => {
                     sabato contribuiamo insieme al codice open source
                 </NoWrap>
             </Info>
-            <Info>Questo sito non usa cookie :)</Info>
+            <Info>
+                Questo sito usa cookie un cookie tecnico non tracciante :)
+            </Info>
         </Container>
     );
 };
