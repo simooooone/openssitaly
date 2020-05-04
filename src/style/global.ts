@@ -25,6 +25,12 @@ export const GlobalStyle = createGlobalStyle`
       line-height:1;
     }
 
+    blockquote {
+      padding:20px;
+      background-color: #9863a0;
+      color:#fff;
+    }
+
     .navbar a svg {
       width:23px;
     }
@@ -315,12 +321,6 @@ export const GlobalStyle = createGlobalStyle`
 
     pre {
       overflow-x:scroll;
-    }
-
-    .sfondoEvidenza {
-      padding:20px;
-      background-color: #9863a0;
-      color:#fff;
     }
 
 `;
