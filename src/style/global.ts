@@ -317,4 +317,10 @@ export const GlobalStyle = createGlobalStyle`
       overflow-x:scroll;
     }
 
+    .sfondoEvidenza {
+      padding:20px;
+      background-color: #9863a0;
+      color:#fff;
+    }
+
 `;

@@ -1,6 +1,6 @@
 ---
 id: 'three-pics'
-sort: 4
+sort: 5
 effect: fade-slide-top
 effectTimeout: 0
 graphics:
@@ -18,4 +18,4 @@ graphics:
     source: https://unsplash.com/photos/H-qqp_Eqaww
 ---
 
-Gallery
+

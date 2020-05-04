@@ -26,12 +26,6 @@ const StandardBlockComponent: FunctionComponent<Props> = props => {
 
     return (
         <StandardBlockContainer {...props}>
-            {!!html && (
-                <Inner
-                    dangerouslySetInnerHTML={{ __html: html }}
-                    fontSize={fontSize}
-                />
-            )}
             {graphics.length === 1 && (
                 <ImageSingle>
                     <ImageWrap>
@@ -62,6 +56,12 @@ const StandardBlockComponent: FunctionComponent<Props> = props => {
                         })}
                     </ImageGalleryGrid>
                 </ImageGallery>
+            )}
+            {!!html && (
+                <Inner
+                    dangerouslySetInnerHTML={{ __html: html }}
+                    fontSize={fontSize}
+                />
             )}
         </StandardBlockContainer>
     );
