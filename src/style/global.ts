@@ -79,7 +79,59 @@ export const GlobalStyle = createGlobalStyle`
       text-decoration: inherit;
       vertical-align: inherit;
     }
+
+    a {
+      background-color: transparent;
+      ${fgColor('#9863a0', '#842020', 300)}
+      position:relative;
+      display:inline-block;
+      padding-left:26px;
+    }
+
+    a:hover:before {
+      color:#842020;
+    }
+    a:before {
+      content:'star_border';
+      font-size:5px;
+      position:absolute;
+      left:0;
+      top:3px;
+      text-decoration:none;
+      color:#9863a0;
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;  /* Preferred icon size */
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+
+      /* Support for all WebKit browsers. */
+      -webkit-font-smoothing: antialiased;
+      /* Support for Safari and Chrome. */
+      text-rendering: optimizeLegibility;
+
+      /* Support for Firefox. */
+      -moz-osx-font-smoothing: grayscale;
+
+      /* Support for IE. */
+      font-feature-settings: 'liga';
+    }
     
+    .linkcopy:before {
+      font-size:15px;
+      top:2px;
+    }
+
+    .linkcopy {
+      padding-left:17px;
+    }
+
     dl dl,
     dl ol,
     dl ul,
@@ -101,17 +153,18 @@ export const GlobalStyle = createGlobalStyle`
 
     ul li {
         position:relative; 
-        padding-left:15px;
+        padding-left:14px;
     }
 
-    ul li:after {
-      content: '› ';
+    ul li:before {
+      content: '';
       position: absolute;
-      color:#9863a0;
+      background-color:#9863a0;
+      border-radius:50%;
       left:0;
-      top:0;
-      bottom:0;
-      margin:0 0 auto;
+      top:11px;
+      width:7px;
+      height:7px;
     }
 
     main {
@@ -127,11 +180,6 @@ export const GlobalStyle = createGlobalStyle`
     pre {
       font-family: monospace, monospace;
       font-size: 1rem;
-    }
-
-    a {
-      background-color: transparent;
-      ${fgColor('#9863a0', '#842020', 300)}
     }
     
     abbr[title] {

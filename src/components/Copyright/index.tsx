@@ -18,7 +18,12 @@ export const Copyright: FunctionComponent<Props> = ({
             {!!source && (
                 <span>
                     {author ? ' on ' : ''}
-                    <a href={source} target="_blank" rel="noopener noreferrer">
+                    <a
+                        className="linkcopy"
+                        href={source}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         {sourceText || source}
                     </a>
                 </span>
