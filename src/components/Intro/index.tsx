@@ -42,6 +42,7 @@ export const Intro: FunctionComponent<{}> = () => {
                             <a
                                 href="https://github.com/oss-italy"
                                 target="_blank"
+                                className="nostar"
                                 rel="noopener noreferrer"
                             >
                                 <Github />
@@ -49,6 +50,7 @@ export const Intro: FunctionComponent<{}> = () => {
                             <a
                                 href="https://twitter.com/OssItaly"
                                 target="_blank"
+                                className="nostar"
                                 rel="noopener noreferrer"
                             >
                                 <Twitter />
@@ -56,6 +58,7 @@ export const Intro: FunctionComponent<{}> = () => {
                             <a
                                 href="https://discord.gg/TpEa5Wn"
                                 target="_blank"
+                                className="nostar"
                                 rel="noopener noreferrer"
                             >
                                 <Discord />
