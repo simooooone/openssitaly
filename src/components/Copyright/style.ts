@@ -10,4 +10,13 @@ export const CopyrightContainer = styled.div`
     ${media({ xs: 'font-size: 0.6rem;' })};
     color: #6c7a89;
     margin: 0.5rem 0.25rem;
+
+    a:before {
+        font-size: 15px;
+        top: 2px;
+    }
+
+    a {
+        padding-left: 17px;
+    }
 `;

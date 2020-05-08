@@ -23,7 +23,33 @@ export const BackgroundImage = styled(Img)`
     position: absolute !important;
 `;
 
-export const NavBar = styled.div``;
+export const NavBar = styled.div`
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 0 10px;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 10;
+    line-height: 1;
+
+    a {
+        margin: 0 5px;
+        color: #9863a0;
+        font-size: 14px;
+        text-decoration: none;
+        display: inline-block;
+        line-height: 1;
+    }
+
+    svg {
+        width: 23px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #333;
+    }
+`;
 
 export const ImageOverlay = styled.div`
     ${absoluteCover()};

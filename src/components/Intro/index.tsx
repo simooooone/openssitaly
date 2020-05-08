@@ -38,7 +38,7 @@ export const Intro: FunctionComponent<{}> = () => {
                         <BackgroundImage
                             sizes={data.backgroundImage.childImageSharp.fluid}
                         />
-                        <NavBar className="navbar">
+                        <NavBar>
                             <a
                                 href="https://github.com/oss-italy"
                                 target="_blank"
