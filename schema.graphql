@@ -889,6 +889,7 @@ enum FileFieldsEnum {
   childMarkdownRemark___htmlAst @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   childMarkdownRemark___excerptAst @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   childMarkdownRemark___headings @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
+  childMarkdownRemark___headings___id @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   childMarkdownRemark___headings___value @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   childMarkdownRemark___headings___depth @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   childMarkdownRemark___timeToRead @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
@@ -1304,8 +1305,8 @@ type ImageSharpFluid {
   sizes: String!
   originalImg: String
   originalName: String
-  presentationWidth: Int
-  presentationHeight: Int
+  presentationWidth: Int!
+  presentationHeight: Int!
 }
 
 input ImageSharpFluidFilterInput {
@@ -1399,8 +1400,8 @@ type ImageSharpSizes {
   sizes: String!
   originalImg: String
   originalName: String
-  presentationWidth: Int
-  presentationHeight: Int
+  presentationWidth: Int!
+  presentationHeight: Int!
 }
 
 input ImageSharpSizesFilterInput {
@@ -1477,11 +1478,13 @@ enum MarkdownExcerptFormats {
 }
 
 type MarkdownHeading {
+  id: String
   value: String
   depth: Int
 }
 
 input MarkdownHeadingFilterInput {
+  id: StringQueryOperatorInput
   value: StringQueryOperatorInput
   depth: IntQueryOperatorInput
 }
@@ -1588,6 +1591,7 @@ enum MarkdownRemarkFieldsEnum {
   htmlAst @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   excerptAst @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   headings @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
+  headings___id @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   headings___value @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   headings___depth @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
   timeToRead @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
