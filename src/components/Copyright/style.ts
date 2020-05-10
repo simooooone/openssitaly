@@ -12,11 +12,11 @@ export const CopyrightContainer = styled.div`
     margin: 0.5rem 0.25rem;
 
     a:before {
-        font-size: 15px;
-        top: 2px;
+        font-size: 15px !important;
+        top: 2px !important;
     }
 
     a {
-        padding-left: 17px;
+        padding-left: 17px !important;
     }
 `;
